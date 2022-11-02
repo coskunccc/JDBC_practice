@@ -31,7 +31,6 @@ public class TestConnection {
             System.out.println(resultSet.getInt(1)+" - "+resultSet.getString(2));
         }
 
-
         //close objects in order
         resultSet.close();
         statement.close();
